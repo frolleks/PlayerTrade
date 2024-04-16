@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "playertrade",
+  "version": "${version}",
+  "name": "PlayerTrade",
+  "description": "",
+  "authors": [
+    "Frolleks"
+  ],
+  "contact": {
+    "repo": "https://github.com/frolleks/PlayerTrade"
+  },
+  "license": "MIT",
+  "icon": "assets/playertrade/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.frolleks.playertrade.client.PlayerTradeClient"
+    ],
+    "main": [
+      "dev.frolleks.playertrade.PlayerTrade"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
